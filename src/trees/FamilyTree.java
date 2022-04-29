@@ -72,7 +72,7 @@ public class FamilyTree
             TreeNode current = this;
             while (current.parent != null)
             {
-            	ancestors.add(this.parent);
+            	ancestors.add(current.parent);
                 current = current.parent;
             }
 
